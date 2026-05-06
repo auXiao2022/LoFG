@@ -1,0 +1,12 @@
+clip
+matplotlib
+numpy
+opencv_python
+Pillow
+plyfile
+poselib
+PyYAML
+scikit_learn
+scipy
+tqdm
+trimesh
