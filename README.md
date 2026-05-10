@@ -1,10 +1,5 @@
 # LoFG: Unified Feature Gaussian Representation for Robust Camera Relocalization
 
-Official implementation associated with the manuscript
-*"Unified Feature Gaussian Representation for Robust Camera Relocalization"*,
-submitted to **The Visual Computer**.
-
-If you use this code or find it helpful for your research, please cite the corresponding manuscript.
 
 **Authors**
 
@@ -103,20 +98,4 @@ datasets/
 
 - TODO: Coming soon.
 
-## Citation
 
-If you find LoFG useful for your research, please cite:
-
-```bibtex
-@article{xiao2025lofg,
-  title   = {Unified Feature Gaussian Representation for Robust Camera Relocalization},
-  author  = {Xiao, Zhendong and Wen, Ziling and Yin, Jun and Wei, Wu},
-  journal = {The Visual Computer (under review)},
-  year    = {2025}
-}
-```
-
-## Acknowledgements
-
-- [Feature 3DGS](https://github.com/ShijieZhou-UCLA/feature-3dgs): our codebase is built upon Feature 3DGS.
-- [gsplat](https://github.com/nerfstudio-project/gsplat): we use gsplat as the rasterization backend.
