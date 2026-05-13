@@ -30,8 +30,8 @@ LoFG is a unified, localization-oriented Feature Gaussian representation for rob
 
 ## News
 
-- TODO: Code release for The Visual Computer submission.
-- TODO: Zenodo DOI.
+-  Code release for The Visual Computer submission.
+-  Zenodo DOI.
 
 ## Installation
 
@@ -45,18 +45,18 @@ LoFG is developed and tested on the **NVIDIA RTX 5090 (Blackwell, sm_120)**. The
 Example environment (exact versions will be pinned at camera-ready release):
 
 ```bash
-# TODO: finalize environment for RTX 5090 / CUDA 12.8
+#  finalize environment for RTX 5090 / CUDA 12.8
 conda create -n lofg python=3.10 -y
 conda activate lofg
 
-# TODO: pin torch / torchvision versions
+#  pin torch / torchvision versions
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 
 pip install -r requirements.txt
 
 # Submodules
 pip install submodules/simple-knn
-pip install submodules/gsplat  # TODO: verify gsplat build for sm_120
+pip install submodules/gsplat  #  verify gsplat build for sm_120
 ```
 
 > Note: the exact package versions that reproduce the manuscript results will be frozen and published together with the camera-ready code release.
@@ -96,6 +96,6 @@ datasets/
 
 ### Evaluation
 
-- TODO: Coming soon.
+-  Coming soon.
 
 
